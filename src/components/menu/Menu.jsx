@@ -16,7 +16,7 @@ const Menu = () => {
     <>
     <div className='section-menu'>
     <Nav />
-    <button onClick={()=>navigate('/menuAR')} type='button'><span className='span-head'></span>AR</button>
+    <button onClick={()=>navigate('/menuAR')} type='button'><span className='span-head'></span>عربي</button>
     <section className='Menu'>
       <div className='Title'> Our Menu</div>
       <div className=" container cards">
@@ -225,8 +225,9 @@ const Menu = () => {
         </div>
         </div>
     </section>
-    </div>
+    
     <Cakes/>
+    </div>
     </>
   )
 }

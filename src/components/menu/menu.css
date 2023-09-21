@@ -4,12 +4,12 @@
 .section-menu{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url('../../images/new1.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url('../../images/bg3.jpg');
     background-size: cover;
     font-family: 'Caveat', cursive;
     font-size: large;
     text-align: center;
-    background-position: center;
+    background-position: 80%;
 }
 .Title{
 
@@ -113,7 +113,7 @@ tr:nth-child(even) {background-color: #cacaca;}
     font-family: 'Caveat', cursive;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url('../../images/bg3.jpg');
+/*     background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url('../../images/bg3.jpg'); */
     background-size: cover;
     text-align: center;
     background-position: center;
@@ -189,21 +189,21 @@ span{
         height: 80%;
         width: 85%;
     }
-    .section-menu{
+/*     .section-menu{
         background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url('../../images/mob1.jpg');
         background-size: cover;
         background-position: center;
-}
+} */
     .MenuAR{
         background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url('../../images/mob3.jpg');
         background-size: cover;
         background-position: center;
     }
-    .Cakes{
+/*     .Cakes{
         background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url('../../images/mob2.jpg');
         background-size: cover;
         background-position: center;
-    }
+    } */
 }
 
 @media screen and (max-width:550px) {

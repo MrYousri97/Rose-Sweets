@@ -71,6 +71,9 @@ span{
         height:250px;
         
     }
+    .section-review{
+        background-position: 20%;
+    }
     .swiper-pagination-bullet{
         width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 3px));
         height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 3px));

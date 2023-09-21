@@ -14,7 +14,7 @@ const MenuAR = () => {
     <div>
           <section className="MenuAR ">
             <Nav />
-            <button onClick={()=>navigate('/menu')} type='button'><span className='span-head'></span>EN</button>
+            <button onClick={()=>navigate('/menu')} type='button'><span className='span-head'></span>English</button>
             <div className='TitleAR'> المنيو</div>
             <div className="container cards">
                 <div className="Card1">
