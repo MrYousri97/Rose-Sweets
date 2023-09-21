@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Rose-Sweets/static/css/main.277ec1f4.css",
+    "main.css": "/Rose-Sweets/static/css/main.f72b6437.css",
     "main.js": "/Rose-Sweets/static/js/main.9e598e01.js",
     "static/media/Contact.jpg": "/Rose-Sweets/static/media/Contact.e253e9faec76fe891c33.jpg",
     "static/media/BR.jpg": "/Rose-Sweets/static/media/BR.13d24a079fa579564398.jpg",
@@ -60,11 +60,11 @@
     "static/media/2.jpg": "/Rose-Sweets/static/media/2.ae631353ea165e27d8d7.jpg",
     "static/media/Logo.png": "/Rose-Sweets/static/media/Logo.860655f55dc69399f952.png",
     "index.html": "/Rose-Sweets/index.html",
-    "main.277ec1f4.css.map": "/Rose-Sweets/static/css/main.277ec1f4.css.map",
+    "main.f72b6437.css.map": "/Rose-Sweets/static/css/main.f72b6437.css.map",
     "main.9e598e01.js.map": "/Rose-Sweets/static/js/main.9e598e01.js.map"
   },
   "entrypoints": [
-    "static/css/main.277ec1f4.css",
+    "static/css/main.f72b6437.css",
     "static/js/main.9e598e01.js"
   ]
 }
