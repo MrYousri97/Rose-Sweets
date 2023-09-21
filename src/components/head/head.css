@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+header{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../../images/bggg.jpg');
+    background-size: cover;
+    
+}
+.content h1{
+    font-size: 100px;
+    margin-top: 40px;
+    font-family: 'Caveat', cursive;
+}
+.content h2{
+    font-size: 70px;
+    margin: 3rem 0 0 0;
+    padding: 0;
+    transform: translateY(45%);
+}
+.content p{
+    margin:10px auto;
+    font-weight: bolder;
+    line-height: 10px;
+}
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    margin: 40px 10px;
+    border:2px solid #00bdaa;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.span-head{
+    background-color: #00bdaa;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover {
+    border: none;
+    z-index: 0;
+}
+
+
+@media screen and (max-width:800px) {
+    header{
+        height: 135vh;
+    }
+    .content h1{
+        font-size: 50px;
+        margin-top: 40px;
+    }
+  }

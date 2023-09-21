@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@400;600&display=swap');
+
+.section-menu{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url('../../images/new1.jpg');
+    background-size: cover;
+    font-family: 'Caveat', cursive;
+    font-size: large;
+    text-align: center;
+    background-position: center;
+}
+.Title{
+
+    color: rgb(255, 255, 255);
+    font-size: 99px;
+    display: flex;
+    justify-content: center;
+}
+.TitleAR{
+    color: rgb(255, 255, 255);
+    font-size: 99px;
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
+.Card1{
+    position: relative;
+    background: transparent;
+    width: 380px;
+    height: 400px;
+    color: white;
+    margin-bottom:60px;
+    margin-left: 10px;
+}
+.Card1 h1{
+    display: flex;
+    justify-content: center;
+}
+
+.front,.back{
+    transition: transform 0.4s linear;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+}
+.front img{
+    border-radius: 30%;
+    height: 80%;
+}
+.front{
+    transform: perspective(800px) rotateY(0deg);
+}
+.back
+{   background: #ffffff;
+    height: auto;
+    width: 350px;
+    justify-content: center;
+    display: flex;
+    transform: perspective(800px) rotateY(-180deg);
+    border-radius:10%;
+    box-shadow: rgb(117, 128, 139) 0px 20px 30px -10px;
+    z-index: 1;
+    margin-left: 10px;
+}
+.back-content{
+    color: #2c3e50;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.Card1:hover >.front{
+    transform: perspective(800px) rotateY(180deg);
+}
+.Card1:hover >.back{
+    transform: perspective(800px) rotateY(0deg);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align:center;
+    padding: 10px;
+
+}
+  
+tr:nth-child(even) {background-color: #cacaca;}
+.honey{
+    margin-left: 50px;
+}
+
+.MenuAR{
+    font-family:  'Marhey', cursive;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url('../../images/new2.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+}
+
+.Cakes{
+    font-family: 'Caveat', cursive;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url('../../images/bg3.jpg');
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+.cake__container {
+    width:40%;
+    padding-bottom:1rem ;
+/*     background: white; */
+    display: flex;
+    justify-content: end;
+}
+.cake__item{
+    padding: 0.2rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+
+}
+span{
+    position: relative;
+}
+.cake__item-img  img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.swiper-pagination-clickable .swiper-pagination-bullet{  
+    background:rgb(255, 255, 255);
+}
+.Cakes h1{
+    color: white;
+    font-size: 150px;
+}
+.Cakes h3{
+    color: white;
+    font-size: 50px;
+}
+.Cakes .Link{
+    color: white;
+    font-size: 50px;
+}
+.Cakes .Link:hover{
+    color: aqua;
+}
+
+@media screen and (max-width:1300px) {
+    .cake__item-img  img{
+        border-radius: 50%;
+        overflow: hidden;
+        width: 310px;
+        height: 310px;
+    }
+    .cake__container {
+        width:60%;
+        padding-bottom:1rem ;
+    }
+  }
+@media screen and (max-width:1200px){
+    .cards{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+@media screen and (max-width:800px){
+    .cards{
+        display:grid;
+        grid-template-columns: 0.5fr ;
+        column-width: auto;      
+    }
+    .front img{
+        border-radius: 50%;
+        height: 80%;
+        width: 85%;
+    }
+    .section-menu{
+        background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url('../../images/mob1.jpg');
+        background-size: cover;
+        background-position: center;
+}
+    .MenuAR{
+        background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url('../../images/mob3.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .Cakes{
+        background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url('../../images/mob2.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .cake__item-img  img{
+        border-radius: 50%;
+        overflow: hidden;
+        width: 280px;
+        height: 280px;
+    }
+    .cake__container {
+        width:80%;
+        padding-bottom:1rem ;
+    }
+    .Cakes h3{
+        color: white;
+        font-size: 30px;
+    }
+    .Cakes h1{
+        color: white;
+        font-size: 120px;
+    }
+}
+@media screen and (max-width:390px){
+    .Card1{
+        width: 350px;
+    }
+    .back{
+        width: 300px;
+        margin-left: 20px;
+    }
+}
