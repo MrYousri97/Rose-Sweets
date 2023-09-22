@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/Rose-Sweets/static/css/main.f72b6437.css",
-    "main.js": "/Rose-Sweets/static/js/main.9e598e01.js",
+    "main.css": "/Rose-Sweets/static/css/main.3b0ae64b.css",
+    "main.js": "/Rose-Sweets/static/js/main.69d05eab.js",
     "static/media/Contact.jpg": "/Rose-Sweets/static/media/Contact.e253e9faec76fe891c33.jpg",
     "static/media/BR.jpg": "/Rose-Sweets/static/media/BR.13d24a079fa579564398.jpg",
     "static/media/Brownis.jpg": "/Rose-Sweets/static/media/Brownis.2b2dc606dab04e26b8f1.jpg",
     "static/media/bg3.jpg": "/Rose-Sweets/static/media/bg3.8a417eb0bc6a478ab3ec.jpg",
     "static/media/new2.jpg": "/Rose-Sweets/static/media/new2.9ae2dc1f845c632242fc.jpg",
     "static/media/mob3.jpg": "/Rose-Sweets/static/media/mob3.266e54acafd2256184d8.jpg",
-    "static/media/new1.jpg": "/Rose-Sweets/static/media/new1.045125b8faa50c4ecc73.jpg",
     "static/media/DN.jpg": "/Rose-Sweets/static/media/DN.f141cd5f00a788014321.jpg",
     "static/media/bggg.jpg": "/Rose-Sweets/static/media/bggg.144b11e5c5deeb536881.jpg",
     "static/media/Eclair.png": "/Rose-Sweets/static/media/Eclair.90a8122f4b76e00ef547.png",
@@ -26,12 +25,10 @@
     "static/media/CKAR.png": "/Rose-Sweets/static/media/CKAR.f136b6a8ab5870f22567.png",
     "static/media/10.png": "/Rose-Sweets/static/media/10.16f0b4b420f6fc156531.png",
     "static/media/9.png": "/Rose-Sweets/static/media/9.96796cfe2a6bd74928e8.png",
-    "static/media/mob2.jpg": "/Rose-Sweets/static/media/mob2.731f0cea80c23b04a33c.jpg",
     "static/media/8.png": "/Rose-Sweets/static/media/8.f36d59b417afe28170f3.png",
     "static/media/Cheese Cake.png": "/Rose-Sweets/static/media/Cheese Cake.5e190309311ef3013e9f.png",
     "static/media/3.png": "/Rose-Sweets/static/media/3.1c372a950691265a3f42.png",
     "static/media/2.png": "/Rose-Sweets/static/media/2.be113543d8e649359c75.png",
-    "static/media/mob1.jpg": "/Rose-Sweets/static/media/mob1.ba64f0a5f791cba416c4.jpg",
     "static/media/1.png": "/Rose-Sweets/static/media/1.f4881dbe3c63d854403c.png",
     "static/media/Cinnabonn.png": "/Rose-Sweets/static/media/Cinnabonn.4283d96bb2d89910e7a0.png",
     "static/media/5.png": "/Rose-Sweets/static/media/5.a55f39ceb43029592577.png",
@@ -60,11 +57,11 @@
     "static/media/2.jpg": "/Rose-Sweets/static/media/2.ae631353ea165e27d8d7.jpg",
     "static/media/Logo.png": "/Rose-Sweets/static/media/Logo.860655f55dc69399f952.png",
     "index.html": "/Rose-Sweets/index.html",
-    "main.f72b6437.css.map": "/Rose-Sweets/static/css/main.f72b6437.css.map",
-    "main.9e598e01.js.map": "/Rose-Sweets/static/js/main.9e598e01.js.map"
+    "main.3b0ae64b.css.map": "/Rose-Sweets/static/css/main.3b0ae64b.css.map",
+    "main.69d05eab.js.map": "/Rose-Sweets/static/js/main.69d05eab.js.map"
   },
   "entrypoints": [
-    "static/css/main.f72b6437.css",
-    "static/js/main.9e598e01.js"
+    "static/css/main.3b0ae64b.css",
+    "static/js/main.69d05eab.js"
   ]
 }
