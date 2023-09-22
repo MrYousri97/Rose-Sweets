@@ -8,6 +8,7 @@ header{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../../images/bggg.jpg');
     background-size: cover;
     
+    
 }
 .content h1{
     font-size: 100px;
@@ -61,7 +62,7 @@ button:hover {
 
 @media screen and (max-width:800px) {
     header{
-        height: 135vh;
+        background-attachment: fixed;
     }
     .content h1{
         font-size: 50px;
