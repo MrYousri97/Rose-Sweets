@@ -6,9 +6,9 @@ import { BrowserRouter as Router , Route,Routes } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/*" element={<App />} />
+        <Route exact path="/*" element={<App />} />
       </Routes>
     </Router>
   </React.StrictMode>
